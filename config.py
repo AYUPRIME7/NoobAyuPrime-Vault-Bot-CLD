@@ -10,7 +10,7 @@ load_dotenv()
 
 # --- Secrets / core settings ------------------------------------------------
 
-BOT_TOKEN: str = os.getenv("BOT_TOKEN", "8838748305:AAFbPRToYGPL1hNypZ1VmjF2ATPFOfP_gPE")
+BOT_TOKEN: str = os.getenv("BOT_TOKEN", "8838748305:AFbPRToYGPL1hNypZ1VmjF2ATPFOfP_gPE")
 OWNER_ID: int = int(os.getenv("OWNER_ID", "8493596199"))
 
 # MongoDB (e.g. a free MongoDB Atlas cluster). Because the catalog lives
